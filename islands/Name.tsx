@@ -3,7 +3,7 @@ import { h } from "preact";
 import { useState } from "preact/hooks";
 import { IS_BROWSER } from "$fresh/runtime.ts";
 import { tw } from "@twind";
-import { faker, GenderType } from 'https://cdn.skypack.dev/@faker-js/faker@v6.0.0?dts';
+import { faker, GenderType } from 'https://cdn.skypack.dev/@faker-js/faker@7.3.0?dts';
 
 interface NameProps {
   gender?: GenderType
